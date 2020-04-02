@@ -1,0 +1,6 @@
+#
+#
+
+
+all:
+	echo "test"
