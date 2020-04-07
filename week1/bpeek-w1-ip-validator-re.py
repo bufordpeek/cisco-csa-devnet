@@ -45,7 +45,7 @@ def validateIpAddress(ip="127.0.0.1"):
 	else:
 		octets = ip.split(".")
 		for octet in octets:
-			if ( int(octet) >= 255 or int(octet) <= 0 ):
+			if ( int(octet) > 255 or int(octet) < 0 ):
 				return(False)
 
 	return(True)
