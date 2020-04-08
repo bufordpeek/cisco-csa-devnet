@@ -20,7 +20,7 @@ def Main(args):
 			#cleaning white space
 			ipAddress = ipAddr.rstrip()
 
-			if ( ipAddress.capitalize() == 'X' ):
+			if ( ipAddress.upper() == 'X' ):
 				continueLoop = False
 			elif ( validateIpAddress(ipAddress) ):
 				print(ipAddress + " is a Valid IP Address! ")
