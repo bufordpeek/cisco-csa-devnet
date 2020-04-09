@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+# 	Author: Buford Peek (<bupeek@cisco.com>)
+#	Title:	Technical Solutions Architect
+#
+
 # General imports
 import os
 import sys
@@ -47,6 +51,8 @@ def validateIpAddress(ip="127.0.0.1"):
 
 	return(True)
 
+def testScripts(self=dict()):
+	return(0)
 
 # Usage
 def usage():
