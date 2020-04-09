@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 #
 #	Author: Buford Peek <bupeek@cisco.com> - Technical Solutions Architect

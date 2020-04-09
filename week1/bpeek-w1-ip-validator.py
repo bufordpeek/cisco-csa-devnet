@@ -24,15 +24,16 @@ def Main(args):
 			if ( ipAddress.capitalize() == 'X' ):
 				continueLoop = False
 			elif ( validateIpAddress(ipAddress) ):
-				print(ipAddress + " is a Valid IP Address! ")
+				print("%s is a Valid IP Address! " % (ipAddress) )
 			else:
-				print(ipAddress + " is not valid IP Address! ")
+				print("%s is NOT a Valid IP Address! " % (ipAddress) )
 	
 		return(0)	
 
 	except Exception as X:
 		print(X)
-		raise(traceback.format_exc())
+		print(traceback.format_exc())
+		raise(X)
 		
 
 	finally:
