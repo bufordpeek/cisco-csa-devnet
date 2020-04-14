@@ -19,7 +19,7 @@ def Main(args):
 		# Chuck Norris API http
 		cnorrisAPI 		= 'https://api.chucknorris.io/jokes/random'
 		cnorrisJson 	= ''	
-		cnorrisJoke		= ''
+		cnorrisJoke		= 'ERROR: There is no Chuck, only Zuul.'
 
 		# Chuck Norris Requests
 		cnorrisRequest = requests.get(cnorrisAPI)
