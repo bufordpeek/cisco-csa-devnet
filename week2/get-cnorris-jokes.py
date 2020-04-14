@@ -25,9 +25,9 @@ def Main(args):
 		cnorrisRequest = requests.get(cnorrisAPI)
 
 		if ( cnorrisRequest.status_code == 200 ):
-			cnorrisJson	   = json.loads(cnorrisRequest.text)
+			cnorrisJson	   	= json.loads(cnorrisRequest.text)
+			cnorrisJoke 	= cnorrisJson['value']; 
 		
-		cnorrisJoke = cnorrisJson['value']; 
 
 		print("\n--------\n %s \n--------\n" % (cnorrisJoke))
 		return(0)	

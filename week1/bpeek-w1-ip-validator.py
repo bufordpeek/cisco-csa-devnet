@@ -31,7 +31,7 @@ def Main(args):
 				print("%s is a Valid IP Address! " % (ipAddress) )
 			else:
 				print("%s is NOT a Valid IP Address! " % (ipAddress) )
-	
+				
 		return(0)	
 
 	except Exception as X:
@@ -41,7 +41,7 @@ def Main(args):
 		
 
 	finally:
-		print("Cisco Systems, Inc (c) (2020)")
+		print("Cisco Systems, Inc (c) (2020)\n")
 
 def validateIpAddress(ip="127.0.0.1"):
 	try:
@@ -60,3 +60,6 @@ def usage():
 
 if ( __name__ == '__main__' ):
 	sys.exit(Main(sys.argv[1:]))
+
+
+

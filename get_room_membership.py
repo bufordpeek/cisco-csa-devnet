@@ -17,7 +17,7 @@ import json
 
 # Global Parameters
 roomID			= 'Y2lzY29zcGFyazovL3VzL1JPT00vNWJiMmRiZjAtNmFkOC0xMWVhLWEzNmEtMDc0ZjMxN2Y0Njli'
-bearer 			= 'ZjUxNjM3OWEtNzg0ZS00OTVmLWJiYTYtNmZjNTRjYWMxOGU2ZjMyOWE2Y2EtYzA5_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f' 
+bearer 			= ''
 membership_url 	= 'https://api.ciscospark.com/v1/memberships/'
 
 #Authorization Header
