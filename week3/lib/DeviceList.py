@@ -44,9 +44,9 @@ class DeviceList():
 	def printIpValidity(self):
 		for device in self.devices:
 			if( device.hasValidIpAddress() ):
-				print( "[%s] is a valid IP for Device Serial [%s]" % (device.serial, device.lanIp) )
+				print( "[%s] is a valid IP for Device Serial [%s]" % (device.lanIp, device.serial) )
 			else:
-				print( "[%s] is NOT a valid IP for Device Serial [%s]" % (device.serial, device.lanIp) )
+				print( "[%s] is NOT a valid IP for Device Serial [%s]" % (device.lanIp, device.serial) )
 
 
 	# To String	
