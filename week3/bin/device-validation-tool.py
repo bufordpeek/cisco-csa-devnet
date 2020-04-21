@@ -40,6 +40,7 @@ def Main(args):
 		# Verifying that the file exists
 		if not( os.path.exists(JSONFileName)):
 			print("File [%s]: does NOT exists" % (JSONFileName) )
+			print("use -h for help!")
 			return(1)
 		
 		ObjConfig['filename'] = JSONFileName
