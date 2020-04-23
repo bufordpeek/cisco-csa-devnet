@@ -22,9 +22,9 @@ def Main(args):
 
 		for device in deviceData:
 			if (validateIpAddress(device['lanIp'])):
-				print("[%s] is a valid IP for Device Serail [%s]" % (device['serial'], device['lanIp']))
+				print("[%s] is a valid IP for Device Serail [%s]" % (device['lanIp'], device['serial']))
 			else:
-				print("[%s] is NOT a valid IP for Device Serail [%s]" % (device['serial'], device['lanIp']))
+				print("[%s] is NOT a valid IP for Device Serail [%s]" % (device['lanIp'], device['serial']))
 
 		return(0)	
 
